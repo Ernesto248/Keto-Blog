@@ -1,9 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const articulosRelacionados = [
-  { id: 1, titulo: "Cómo empezar con la dieta Keto" },
-  { id: 2, titulo: "Los 10 mejores alimentos compatibles con Keto" },
-  { id: 3, titulo: "Desmintiendo los mitos de la dieta Keto" },
+  {
+    id: 1,
+    url: "/articles/getting-started",
+    titulo: "Cómo empezar con la dieta Keto",
+  },
 ];
 
 export default function Beneficios() {
@@ -189,12 +192,12 @@ export default function Beneficios() {
         <ul className="list-disc pl-6">
           {articulosRelacionados.map((articulo) => (
             <li key={articulo.id} className="mb-2">
-              <a
-                href={`#articulo-${articulo.id}`}
+              <NavLink
+                to={articulo.url}
                 className="text-blue-600 hover:underline"
               >
                 {articulo.titulo}
-              </a>
+              </NavLink>
             </li>
           ))}
         </ul>

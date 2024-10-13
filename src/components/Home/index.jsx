@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 // Datos de ejemplo para las publicaciones del blog
 const publicacionesBlog = [
@@ -24,11 +25,6 @@ const publicacionesBlog = [
 ];
 
 export default function Home() {
-  // Función para manejar la redirección al hacer clic en "Leer más"
-  const handleLeerMas = (url) => {
-    window.location.href = url;
-  };
-
   return (
     <main className="flex-grow container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -51,12 +47,12 @@ export default function Home() {
                 <span className="text-sm text-gray-500">
                   {publicacion.fecha}
                 </span>
-                <button
+                <NavLink
+                  to={publicacion.articleUrl}
                   className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
-                  onClick={() => handleLeerMas(publicacion.articleUrl)}
                 >
                   Leer más
-                </button>
+                </NavLink>
               </div>
             </div>
           </article>

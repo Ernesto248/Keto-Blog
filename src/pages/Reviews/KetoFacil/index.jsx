@@ -1,5 +1,5 @@
 import React from "react";
-import KetoFacil from "../../../components/Articles/KetoFacil";
+import KetoFacil from "../../../components/Reviews/KetoFacil";
 import Layout from "../../../components/Layout";
 
 const KetoFacilPage = () => {

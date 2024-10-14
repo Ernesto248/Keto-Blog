@@ -4,24 +4,6 @@ import { NavLink } from "react-router-dom";
 // Datos de ejemplo para las publicaciones del blog
 const publicacionesBlog = [
   {
-    id: 1,
-    titulo: "Comenzando con la dieta Keto",
-    resumen:
-      "Aprende los conceptos básicos de la dieta cetogénica y cómo comenzar tu camino hacia una mejor salud.",
-    fecha: "2024-10-02",
-    imagenUrl: "keto1.jpg",
-    articleUrl: "/articles/getting-started",
-  },
-  {
-    id: 2,
-    titulo: "Beneficios de la dieta keto",
-    resumen:
-      "Descubre los numerosos beneficios que puede aportar la dieta keto a tu salud, mejorando tu bienestar general y energía diaria.",
-    fecha: "2024-08-05",
-    imagenUrl: "beneficios.jpg",
-    articleUrl: "/articles/beneficios",
-  },
-  {
     id: 3,
     titulo:
       "Método Keto Fácil: La Solución Rápida y Efectiva para Bajar de Peso",
@@ -34,7 +16,7 @@ const publicacionesBlog = [
   // Otros artículos pueden ir aquí
 ];
 
-export default function Home() {
+export default function Reviews() {
   return (
     <main className="flex-grow container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

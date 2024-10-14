@@ -1,18 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const articulosRelacionados = [
-  {
-    id: 1,
-    url: "/articles/getting-started",
-    titulo: "Cómo empezar con la dieta Keto",
-  },
-  {
-    id: 2,
-    url: "/articles/beneficios",
-    titulo: "Los mayores beneficios de la dieta Keto",
-  },
-];
+const articulosRelacionados = [];
 
 export default function KetoFacil() {
   return (
@@ -189,22 +178,6 @@ export default function KetoFacil() {
           Si estás buscando un plan flexible que se adapte a tu ritmo, este
           programa vale la pena.
         </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Artículos relacionados</h2>
-        <ul className="list-disc pl-6">
-          {articulosRelacionados.map((articulo) => (
-            <li key={articulo.id} className="mb-2">
-              <NavLink
-                to={articulo.url}
-                className="text-blue-600 hover:underline"
-              >
-                {articulo.titulo}
-              </NavLink>
-            </li>
-          ))}
-        </ul>
       </section>
     </article>
   );

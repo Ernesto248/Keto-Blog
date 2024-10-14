@@ -3,13 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const articulosRelacionados = [
   {
-    id: 1,
-    url: "/articles/beneficios",
-    titulo: "Los mayores beneficios de la dieta Keto",
-  },
-  {
     id: 2,
-    url: "/articles/keto-facil",
+    url: "/reviews/keto-facil",
     titulo: "Método Keto Fácil",
   },
 ];

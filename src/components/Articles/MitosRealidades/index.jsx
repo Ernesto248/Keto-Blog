@@ -148,13 +148,16 @@ export default function MitosRealidades() {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-4">Artículos Relacionados</h2>
+        <h2 className="text-2xl font-semibold mb-4">Artículos relacionados</h2>
         <ul className="list-disc pl-6">
           {articulosRelacionados.map((articulo) => (
             <li key={articulo.id} className="mb-2">
-              <a href={articulo.url} className="text-blue-600 hover:underline">
+              <NavLink
+                to={articulo.url}
+                className="text-blue-600 hover:underline"
+              >
                 {articulo.titulo}
-              </a>
+              </NavLink>
             </li>
           ))}
         </ul>

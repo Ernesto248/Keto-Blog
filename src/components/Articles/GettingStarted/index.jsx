@@ -125,12 +125,9 @@ export default function GettingStarted() {
         <ul className="list-disc pl-6">
           {articulosRelacionados.map((articulo) => (
             <li key={articulo.id} className="mb-2">
-              <NavLink
-                to={articulo.url}
-                className="text-blue-600 hover:underline"
-              >
+              <a href={articulo.url} className="text-blue-600 hover:underline">
                 {articulo.titulo}
-              </NavLink>
+              </a>
             </li>
           ))}
         </ul>

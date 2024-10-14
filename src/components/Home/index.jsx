@@ -31,6 +31,16 @@ const publicacionesBlog = [
     imagenUrl: "kf/portada.png",
     articleUrl: "/reviews/keto-facil",
   },
+  {
+    id: 4,
+    titulo:
+      "Método Keto Fácil: La Solución Rápida y Efectiva para Bajar de Peso",
+    resumen:
+      "Si estás buscando un enfoque práctico para iniciar la dieta keto, el Método Keto Fácil podría ser la solución que necesitas",
+    fecha: "2024-10-14",
+    imagenUrl: "articles/mitos.jpg",
+    articleUrl: "/articles/mitos-realidades",
+  },
   // Otros artículos pueden ir aquí
 ];
 

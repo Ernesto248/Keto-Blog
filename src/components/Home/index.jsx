@@ -18,8 +18,18 @@ const publicacionesBlog = [
     resumen:
       "Descubre los numerosos beneficios que puede aportar la dieta keto a tu salud, mejorando tu bienestar general y energía diaria.",
     fecha: "2024-08-05",
-    imagenUrl: "keto_nombre.jpg",
+    imagenUrl: "beneficios.jpg",
     articleUrl: "/articles/beneficios",
+  },
+  {
+    id: 3,
+    titulo:
+      "Método Keto Fácil: La Solución Rápida y Efectiva para Bajar de Peso",
+    resumen:
+      "Si estás buscando un enfoque práctico para iniciar la dieta keto, el Método Keto Fácil podría ser la solución que necesitas",
+    fecha: "2024-10-13",
+    imagenUrl: "kf/portada.png",
+    articleUrl: "/articles/keto-facil",
   },
   // Otros artículos pueden ir aquí
 ];

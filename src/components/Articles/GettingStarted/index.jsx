@@ -7,6 +7,11 @@ const articulosRelacionados = [
     url: "/articles/beneficios",
     titulo: "Los mayores beneficios de la dieta Keto",
   },
+  {
+    id: 2,
+    url: "/articles/keto-facil",
+    titulo: "Método Keto Fácil",
+  },
 ];
 
 export default function GettingStarted() {

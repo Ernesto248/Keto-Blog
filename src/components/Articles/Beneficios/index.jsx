@@ -7,6 +7,11 @@ const articulosRelacionados = [
     url: "/articles/getting-started",
     titulo: "Cómo empezar con la dieta Keto",
   },
+  {
+    id: 2,
+    url: "/articles/keto-facil",
+    titulo: "Método Keto Fácil",
+  },
 ];
 
 export default function Beneficios() {

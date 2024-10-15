@@ -7,6 +7,11 @@ const articulosRelacionados = [
     url: "/reviews/keto-facil",
     titulo: "Método Keto Fácil",
   },
+  {
+    id: 3,
+    url: "/reviews/mcn",
+    titulo: "Plan Keto Personalizado de MCN: Tu Aliado en la Pérdida de Peso",
+  },
 ];
 
 export default function Beneficios() {

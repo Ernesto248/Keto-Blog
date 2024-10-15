@@ -1,7 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-
-const articulosRelacionados = [];
 
 export default function KetoFacil() {
   return (

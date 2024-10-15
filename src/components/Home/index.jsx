@@ -33,13 +33,22 @@ const publicacionesBlog = [
   },
   {
     id: 4,
-    titulo:
-      "Método Keto Fácil: La Solución Rápida y Efectiva para Bajar de Peso",
+    titulo: "Mitos y Realidades de la Dieta Keto: Lo Que Necesitas Saber",
     resumen:
-      "Si estás buscando un enfoque práctico para iniciar la dieta keto, el Método Keto Fácil podría ser la solución que necesitas",
-    fecha: "2024-10-14",
+      "La dieta cetogénica ha tomado fuerza en los últimos años. A continuación, desmentimos algunos mitos comunes sobre esta dieta",
+    fecha: "2024-10-10",
     imagenUrl: "articles/mitos.jpg",
     articleUrl: "/articles/mitos-realidades",
+  },
+  {
+    id: 5,
+    titulo:
+      "¡Descubre el Plan Keto Personalizado de MCN: Tu Aliado en la Pérdida de Peso!",
+    resumen:
+      "El Plan Keto Personalizado de My Custom Nutrition es la solución ideal si te has sentido abrumado o frustrado al iniciar la dieta keto sin ver resultados.",
+    fecha: "2024-10-15",
+    imagenUrl: "mcn/mcn.jpg",
+    articleUrl: "/reviews/mcn",
   },
   // Otros artículos pueden ir aquí
 ];

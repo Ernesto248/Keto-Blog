@@ -13,6 +13,16 @@ const publicacionesBlog = [
     imagenUrl: "kf/portada.png",
     articleUrl: "/reviews/keto-facil",
   },
+  {
+    id: 5,
+    titulo:
+      "¡Descubre el Plan Keto Personalizado de MCN: Tu Aliado en la Pérdida de Peso!",
+    resumen:
+      "El Plan Keto Personalizado de My Custom Nutrition es la solución ideal si te has sentido abrumado o frustrado al iniciar la dieta keto sin ver resultados.",
+    fecha: "2024-10-15",
+    imagenUrl: "mcn/mcn.jpg",
+    articleUrl: "/reviews/mcn",
+  },
   // Otros artículos pueden ir aquí
 ];
 

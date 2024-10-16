@@ -50,6 +50,33 @@ const publicacionesBlog = [
     imagenUrl: "mcn/mcn.jpg",
     articleUrl: "/reviews/mcn",
   },
+  {
+    id: 6,
+    titulo: "Dieta keto vs. otras dietas: ¿Cuál es la mejor para perder peso?",
+    resumen:
+      "La dieta keto ha captado la atención de muchas personas en busca de resultados rápidos y efectivos. Sin embargo, no es la única opción",
+    fecha: "2024-10-07",
+    imagenUrl: "articles/keto-vs-dietas/keto-vs-dietas.png",
+    articleUrl: "/articles/keto-vs-dietas",
+  },
+  {
+    id: 7,
+    titulo: "Keto en la cultura popular",
+    resumen:
+      "La dieta cetogénica, comúnmente conocida como keto, ha ganado una presencia significativa en la cultura popular",
+    fecha: "2024-10-07",
+    imagenUrl: "articles/cultura-pop/cultura-pop-article.png",
+    articleUrl: "/articles/cultura-pop-keto",
+  },
+  {
+    id: 8,
+    titulo: "Dieta keto en el rendimiento deportivo",
+    resumen:
+      "La dieta keto ha ganado popularidad no solo entre aquellos que buscan perder peso, sino también entre los atletas",
+    fecha: "2024-10-015",
+    imagenUrl: "articles/rendimiento-deportivo/rendimiento-deportivo-keto.png",
+    articleUrl: "/articles/rendimiento-deportivo-keto",
+  },
   // Otros artículos pueden ir aquí
 ];
 

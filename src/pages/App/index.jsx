@@ -4,15 +4,17 @@ import "./App.css";
 import NavBar from "../../components/NavBar";
 import Footer from "../../components/Footer";
 import HomePage from "../Home";
+import ReviewsPage from "../Reviews";
+import KetoFacilPage from "../Reviews/KetoFacil";
+import Mcn from "../../components/Reviews/Mcn";
 import GettingStartedPage from "../Articles/GettingStarted";
 import BeneficiosPage from "../Articles/Beneficios";
-import KetoFacilPage from "../Reviews/KetoFacil";
-import ReviewsPage from "../Reviews";
 import MitosRealidadesPage from "../Articles/MitosRealidades";
 import KetoVsDietasPage from "../Articles/KetoVsDietas";
 import CulturaPopKetoPage from "../Articles/CulturaPopKeto";
 import RendimientoDeportivoKetoPage from "../Articles/RendimientoDeportivoKeto";
-import Mcn from "../../components/Reviews/Mcn";
+import AdaptarKetoPage from "../Articles/AdaptarKeto";
+import RecetasFacilesPage from "../Articles/RecetasFaciles";
 
 const AppRoutes = () => {
   let routes = useRoutes([
@@ -26,6 +28,8 @@ const AppRoutes = () => {
       path: "/articles/rendimiento-deportivo-keto",
       element: <RendimientoDeportivoKetoPage />,
     },
+    { path: "/articles/adaptar-keto", element: <AdaptarKetoPage /> },
+    { path: "/articles/recetas-faciles", element: <RecetasFacilesPage /> },
     { path: "/reviews/", element: <ReviewsPage /> },
     { path: "/reviews/keto-facil", element: <KetoFacilPage /> },
     { path: "/reviews/mcn", element: <Mcn /> },

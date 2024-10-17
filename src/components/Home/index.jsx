@@ -86,6 +86,26 @@ const publicacionesBlog = [
     articleUrl: "/articles/rendimiento-deportivo-keto",
     review: false,
   },
+  {
+    id: 9,
+    titulo: "Cómo Adaptar la Dieta Keto a tu Estilo de Vida Diario",
+    resumen:
+      "Con los ajustes correctos, puedes adaptar la dieta keto a tu estilo de vida diario sin grandes sacrificios.",
+    fecha: "2024-10-09",
+    imagenUrl: "articles/adaptar-keto/adaptar-keto.jpg",
+    articleUrl: "/articles/adaptar-keto",
+    review: false,
+  },
+  {
+    id: 10,
+    titulo: "Recetas Fáciles y Deliciosas para una Dieta Keto Exitosa",
+    resumen:
+      "¡Comer keto no tiene que ser aburrido! Aquí te compartimos tres recetas sencillas y deliciosas que te ayudarán a mantener el rumbo",
+    fecha: "2024-10-08",
+    imagenUrl: "articles/recetas/receta.jpg",
+    articleUrl: "/articles/recetas-faciles",
+    review: false,
+  },
   // Otros artículos pueden ir aquí
 ];
 

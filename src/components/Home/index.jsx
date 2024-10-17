@@ -106,6 +106,16 @@ const publicacionesBlog = [
     articleUrl: "/articles/recetas-faciles",
     review: false,
   },
+  {
+    id: 11,
+    titulo: "¿Es KetoMorfosis la Transformación que Estás Buscando?",
+    resumen:
+      "KetoMorfosis, un programa que promete una transformación integral en 30 días. Pero, ¿es realmente lo que dice ser?",
+    fecha: "2024-10-17",
+    imagenUrl: "/ketomorfosis/ketomorfosis.png",
+    articleUrl: "/reviews/ketomorfosis",
+    review: true,
+  },
   // Otros artículos pueden ir aquí
 ];
 

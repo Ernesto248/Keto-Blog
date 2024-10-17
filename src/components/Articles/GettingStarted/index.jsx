@@ -12,6 +12,11 @@ const articulosRelacionados = [
     url: "/reviews/mcn",
     titulo: "Plan Keto Personalizado de MCN: Tu Aliado en la Pérdida de Peso",
   },
+  {
+    id: 4,
+    url: "/reviews/ketomorfosis",
+    titulo: "KetoMorfosis",
+  },
 ];
 
 export default function GettingStarted() {

@@ -7,6 +7,7 @@ import HomePage from "../Home";
 import ReviewsPage from "../Reviews";
 import KetoFacilPage from "../Reviews/KetoFacil";
 import Mcn from "../../components/Reviews/Mcn";
+import KetoMorfosisPage from "../Reviews/KetoMorfosis";
 import GettingStartedPage from "../Articles/GettingStarted";
 import BeneficiosPage from "../Articles/Beneficios";
 import MitosRealidadesPage from "../Articles/MitosRealidades";
@@ -33,6 +34,7 @@ const AppRoutes = () => {
     { path: "/reviews/", element: <ReviewsPage /> },
     { path: "/reviews/keto-facil", element: <KetoFacilPage /> },
     { path: "/reviews/mcn", element: <Mcn /> },
+    { path: "/reviews/ketomorfosis", element: <KetoMorfosisPage /> },
   ]);
   return routes;
 };

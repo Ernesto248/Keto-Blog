@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Star } from "lucide-react";
 
 // Datos de ejemplo para las publicaciones del blog
 const publicacionesBlog = [
@@ -11,6 +12,7 @@ const publicacionesBlog = [
     fecha: "2024-10-02",
     imagenUrl: "keto1.jpg",
     articleUrl: "/articles/getting-started",
+    review: false,
   },
   {
     id: 2,
@@ -20,6 +22,7 @@ const publicacionesBlog = [
     fecha: "2024-08-05",
     imagenUrl: "beneficios.jpg",
     articleUrl: "/articles/beneficios",
+    review: false,
   },
   {
     id: 3,
@@ -30,6 +33,7 @@ const publicacionesBlog = [
     fecha: "2024-10-13",
     imagenUrl: "kf/portada.png",
     articleUrl: "/reviews/keto-facil",
+    review: true,
   },
   {
     id: 4,
@@ -39,6 +43,7 @@ const publicacionesBlog = [
     fecha: "2024-10-10",
     imagenUrl: "articles/mitos.jpg",
     articleUrl: "/articles/mitos-realidades",
+    review: false,
   },
   {
     id: 5,
@@ -49,6 +54,7 @@ const publicacionesBlog = [
     fecha: "2024-10-15",
     imagenUrl: "mcn/mcn.jpg",
     articleUrl: "/reviews/mcn",
+    review: true,
   },
   {
     id: 6,
@@ -58,6 +64,7 @@ const publicacionesBlog = [
     fecha: "2024-10-07",
     imagenUrl: "articles/keto-vs-dietas/keto-vs-dietas.png",
     articleUrl: "/articles/keto-vs-dietas",
+    review: false,
   },
   {
     id: 7,
@@ -67,6 +74,7 @@ const publicacionesBlog = [
     fecha: "2024-10-07",
     imagenUrl: "articles/cultura-pop/cultura-pop-article.png",
     articleUrl: "/articles/cultura-pop-keto",
+    review: false,
   },
   {
     id: 8,
@@ -76,6 +84,7 @@ const publicacionesBlog = [
     fecha: "2024-10-015",
     imagenUrl: "articles/rendimiento-deportivo/rendimiento-deportivo-keto.png",
     articleUrl: "/articles/rendimiento-deportivo-keto",
+    review: false,
   },
   // Otros artículos pueden ir aquí
 ];
@@ -89,11 +98,19 @@ export default function Home() {
             key={publicacion.id}
             className="bg-white rounded-lg shadow-md overflow-hidden"
           >
-            <img
-              src={publicacion.imagenUrl}
-              alt={publicacion.titulo}
-              className="w-full h-48 object-cover"
-            />
+            <div className="relative">
+              <img
+                src={publicacion.imagenUrl}
+                alt={publicacion.titulo}
+                className="w-full h-48 object-cover"
+              />
+              {publicacion.review && (
+                <span className="flex absolute top-2 right-2 bg-red-500 text-white px-2 py-1 text-lg rounded">
+                  <Star className="w-5 h-5 mr-1 mt-1" />
+                  Review
+                </span>
+              )}
+            </div>
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2">
                 {publicacion.titulo}

@@ -1,9 +1,11 @@
-import LogoImage from "../LogoImage";
-import { NavLink } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 const Layout = ({ children }) => {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-100">{children}</div>
+    <div className="min-h-screen flex flex-col bg-gray-100">
+      {children}
+      <Analytics />
+    </div>
   );
 };
 
